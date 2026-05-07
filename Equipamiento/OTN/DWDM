@@ -1,0 +1,94 @@
+Descripción General
+El sistema de transporte óptico OTN/DWDM funciona como una **“autopista de datos” de alta capacidad**, diseñada para concentrar múltiples flujos de información y transportarlos a través de fibra óptica a grandes distancias con una degradación mínima de la señal.
+Su objetivo principal es optimizar el uso de la infraestructura de fibra óptica, permitiendo transmitir grandes volúmenes de datos de manera eficiente, estable y escalable.
+
+Componentes y Funciones Principales
+
+1. Conmutación y Agregación (MikroTik)
+
+El proceso de transmisión comienza en el **Switch MikroTik**, que actúa como la puerta de entrada de los datos al sistema óptico.
+
+Funciones
+* Recibir señales Ethernet provenientes de la red local.
+* Gestionar la conmutación de paquetes.
+* Dirigir el tráfico hacia el sistema de transporte óptico.
+* Administrar la conectividad entre dispositivos de red.
+
+Importancia
+Este equipo permite organizar y distribuir eficientemente el tráfico antes de enviarlo al sistema DWDM.
+
+2. Tecnología OTN/DWDM (Unidades Ópticas)
+
+Este conjunto corresponde al núcleo principal del sistema de transporte óptico.
+
+Función General
+Permitir la **Multiplexación por División de Longitud de Onda Densa (DWDM)**, transmitiendo múltiples señales ópticas simultáneamente a través de una sola fibra.
+
+2.1 Transpondedor
+El transpondedor convierte las señales eléctricas en señales ópticas.
+
+Funciones
+* Transformar señales Ethernet eléctricas en señales ópticas.
+* Asignar una longitud de onda específica ("color") a cada señal.
+* Preparar las señales para el transporte de larga distancia.
+
+Importancia
+Permite integrar diferentes servicios dentro de la red óptica sin interferencias.
+
+
+
+2.2 Mux/Demux
+El multiplexor/demultiplexor combina y separa señales ópticas.
+
+Funciones
+Combinar múltiples longitudes de onda en una sola fibra.
+Separar las señales al llegar al destino.
+Maximizar la capacidad de transmisión de la infraestructura física.
+
+Importancia
+Reduce la necesidad de instalar nuevas fibras, aumentando la eficiencia y capacidad de la red.
+
+3. Gestión y Distribución (ODF / Patch Panels)
+El **ODF (Optical Distribution Frame)** o panel de conexiones organiza físicamente las fibras ópticas dentro del rack.
+
+Funciones
+* Ordenar y administrar conexiones de fibra.
+* Facilitar mantenimiento y cambios de topología.
+* Permitir conexiones mediante patch cords sin intervenir directamente los equipos críticos.
+
+Importancia
+Mejora la organización, seguridad y accesibilidad del sistema óptico.
+
+4. Instrumentación y Diagnóstico (Bobinas de Lanzamiento)
+Las bobinas de lanzamiento son utilizadas durante pruebas y certificaciones de enlaces ópticos.
+
+Funciones
+Conectarse entre el OTDR y el enlace de fibra.
+Eliminar la “zona muerta” del instrumento de medición.
+Estabilizar la señal óptica durante las pruebas.
+
+Importancia
+Permiten obtener mediciones precisas del estado de conectores y enlaces ópticos.
+
+Objetivos Técnicos del Sistema
+
+-Eficiencia Espectral
+
+-Transmitir múltiples servicios independientes utilizando un solo hilo de fibra óptica.
+
+
+Escalabilidad
+-Permitir el transporte de grandes volúmenes de datos entre ubicaciones geográficas distantes.
+
+Certificación de Red
+-Garantizar el correcto funcionamiento de los enlaces ópticos verificando:
+
+Cortes de fibra.
+Suciedad en conectores.
+Dobleces excesivos.
+Pérdidas de potencia óptica (dBm).
+
+Conclusión
+El sistema OTN/DWDM representa una solución avanzada de transporte óptico, capaz de soportar comunicaciones de alta capacidad y larga distancia.
+Gracias a la combinación de tecnologías de multiplexación, gestión física y herramientas de certificación, es posible construir redes más eficientes,
+escalables y confiables para entornos empresariales y de telecomunicaciones.
